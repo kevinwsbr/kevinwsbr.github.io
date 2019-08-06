@@ -53,9 +53,13 @@ h2 {
 .hero h1,
 .hero h2 {
   color: white;
-  font-family: "Ubuntu";
+  font-family: "Ubuntu" !important;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.hero a {
+  font-family: "Ubuntu" !important;
 }
 
 .section-title {
@@ -277,7 +281,8 @@ section:not(:first-of-type) {
   section .inner-container .content h3:first-of-type {
     margin-top: 16px;
   }
-  section .inner-container .content p {
+  section .inner-container .content p,
+  section .inner-container .content h4 {
     margin-right: 20px;
   }
 }

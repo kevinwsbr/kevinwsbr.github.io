@@ -54,9 +54,12 @@ h2 {
     h1,
     h2 {
         color: white;
-        font-family: "Ubuntu";
+        font-family: "Ubuntu" !important;
         text-transform: uppercase;
         text-decoration: none;
+    }
+    a {
+        font-family: "Ubuntu" !important;
     }
 }
 
@@ -271,7 +274,8 @@ section {
                 h3:first-of-type {
                     margin-top: 16px;
                 }
-                p {
+                p,
+                h4 {
                     margin-right: 20px;
                 }
             }
