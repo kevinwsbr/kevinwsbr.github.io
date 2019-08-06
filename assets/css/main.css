@@ -17,14 +17,6 @@ canvas {
   height: 100%;
 }
 
-h1,
-h2 {
-  color: white;
-  font-family: "Ubuntu";
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
 h1 {
   font-size: 2.8em;
   font-weight: 400;
@@ -56,6 +48,14 @@ h2 {
   text-align: center;
   padding: 1em;
   font-size: 1.1em;
+}
+
+.hero h1,
+.hero h2 {
+  color: white;
+  font-family: "Ubuntu";
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .section-title {
@@ -256,6 +256,9 @@ section:not(:first-of-type) {
 }
 
 @media screen and (max-width: 960px) {
+  body {
+    overflow-x: hidden;
+  }
   section .inner-container {
     flex-direction: column;
   }
@@ -270,6 +273,12 @@ section:not(:first-of-type) {
   }
   section .inner-container .content ul {
     margin-top: 16px;
+  }
+  section .inner-container .content h3:first-of-type {
+    margin-top: 16px;
+  }
+  section .inner-container .content p {
+    margin-right: 20px;
   }
 }
 
