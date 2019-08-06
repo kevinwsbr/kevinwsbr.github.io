@@ -194,7 +194,7 @@ a {
     display: flex;
 }
 
-section {
+section:not(.hero) {
     font-family: 'Google Sans', sans-serif !important;
     padding-bottom: 30px;
     padding-top: 100px;

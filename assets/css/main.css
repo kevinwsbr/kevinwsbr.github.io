@@ -189,19 +189,19 @@ a {
   display: flex;
 }
 
-section {
+section:not(.hero) {
   font-family: 'Google Sans', sans-serif !important;
   padding-bottom: 30px;
   padding-top: 100px;
   margin-top: -100px;
 }
 
-section .description {
+section:not(.hero) .description {
   padding: 0 10px;
   width: 30%;
 }
 
-section .description hr {
+section:not(.hero) .description hr {
   border: none;
   margin: 0.8em 0;
   padding: 1px;
@@ -210,12 +210,12 @@ section .description hr {
   background-color: #862f32;
 }
 
-section .content {
+section:not(.hero) .content {
   padding: 0 10px;
   width: 70%;
 }
 
-section .content img {
+section:not(.hero) .content img {
   width: 60px;
   height: 60px;
   border: solid 1px #e3e3e3;
@@ -223,39 +223,39 @@ section .content img {
   margin-right: 10px;
 }
 
-section .content p {
+section:not(.hero) .content p {
   margin: 0;
   opacity: 0.8;
   font-style: italic;
 }
 
-section .content .time {
+section:not(.hero) .content .time {
   font-size: 13px;
   font-style: normal;
 }
 
-section .content .location {
+section:not(.hero) .content .location {
   opacity: 0.8;
   font-weight: 400;
   padding-left: 10px;
 }
 
-section .content ul {
+section:not(.hero) .content ul {
   list-style: none;
 }
 
-section .content ul li {
+section:not(.hero) .content ul li {
   margin-bottom: 20px;
   display: flex;
   flex-direction: row;
 }
 
-section .content h3 {
+section:not(.hero) .content h3 {
   font-size: 25px;
   margin-bottom: 16px;
 }
 
-section:not(:first-of-type) {
+section:not(.hero):not(:first-of-type) {
   border-bottom: 1px solid #ddd;
 }
 
