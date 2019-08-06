@@ -189,19 +189,18 @@ a {
   display: flex;
 }
 
-section:not(.hero) {
-  font-family: 'Google Sans', sans-serif !important;
+section {
   padding-bottom: 30px;
   padding-top: 100px;
   margin-top: -100px;
 }
 
-section:not(.hero) .description {
+section .description {
   padding: 0 10px;
   width: 30%;
 }
 
-section:not(.hero) .description hr {
+section .description hr {
   border: none;
   margin: 0.8em 0;
   padding: 1px;
@@ -210,12 +209,12 @@ section:not(.hero) .description hr {
   background-color: #862f32;
 }
 
-section:not(.hero) .content {
+section .content {
   padding: 0 10px;
   width: 70%;
 }
 
-section:not(.hero) .content img {
+section .content img {
   width: 60px;
   height: 60px;
   border: solid 1px #e3e3e3;
@@ -223,40 +222,49 @@ section:not(.hero) .content img {
   margin-right: 10px;
 }
 
-section:not(.hero) .content p {
+section .content p {
   margin: 0;
   opacity: 0.8;
   font-style: italic;
 }
 
-section:not(.hero) .content .time {
+section .content .time {
   font-size: 13px;
   font-style: normal;
 }
 
-section:not(.hero) .content .location {
+section .content .location {
   opacity: 0.8;
   font-weight: 400;
   padding-left: 10px;
 }
 
-section:not(.hero) .content ul {
+section .content ul {
   list-style: none;
 }
 
-section:not(.hero) .content ul li {
+section .content ul li {
   margin-bottom: 20px;
   display: flex;
   flex-direction: row;
 }
 
-section:not(.hero) .content h3 {
+section .content h3 {
   font-size: 25px;
   margin-bottom: 16px;
 }
 
-section:not(.hero):not(:first-of-type) {
+section:not(:first-of-type) {
   border-bottom: 1px solid #ddd;
+}
+
+section:not(.hero) {
+  font-family: 'Google Sans', sans-serif !important;
+}
+
+section:not(.hero) h1,
+section:not(.hero) h2 {
+  font-family: "Ubuntu" !important;
 }
 
 @media screen and (max-width: 960px) {
