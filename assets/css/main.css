@@ -40,8 +40,15 @@ h4 {
   font-weight: bold;
 }
 
+h3,
+h4,
+h2,
+p {
+  font-family: "Google Sans", sans-serif;
+}
+
 h2 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Google Sans", sans-serif;
   font-weight: bold;
   letter-spacing: 5px;
   font-weight: 500;
@@ -54,9 +61,13 @@ h2 {
 .hero h2,
 .hero a {
   color: white;
-  font-family: "Ubuntu" !important;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.hero h1,
+.hero a {
+  font-family: "Ubuntu" !important;
 }
 
 .hero a {
