@@ -146,23 +146,11 @@ a {
   h1 {
     font-size: 2.2em;
   }
-  h2 {
-    font-size: 1.4em;
-  }
   .buttons-container {
     margin-top: 3em;
   }
   .avatar {
     width: 150px;
-  }
-}
-
-@media (max-width: 425px) {
-  h1 {
-    font-size: 1.8em;
-  }
-  .avatar {
-    margin-bottom: 1em;
   }
 }
 
@@ -251,7 +239,8 @@ section:not(:first-of-type) {
 }
 
 @media screen and (max-width: 960px) {
-  body {
+  body,
+  section:not(.hero) {
     overflow-x: hidden;
   }
   section .inner-container {
