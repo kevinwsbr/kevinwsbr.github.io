@@ -7,7 +7,7 @@ Kevin Lira leads initiatives on performance, usability, and secure development w
 ## Pages
 
 - [Homepage](https://kevinws.com/): Bio, education, research focus, and contact information.
-- [Publications](https://kevinws.com/publications.html): Peer-reviewed papers, education history, and patents.
+- [Publications](https://kevinws.com/publications/): Peer-reviewed papers, education history, and patents.
 
 ## Research
 
