@@ -1,0 +1,23 @@
+# Kevin Lira
+
+> Computer engineer and Ph.D. student in Computer Science at North Carolina State University (USA), researching large language models (LLMs) for automated detection and repair of software vulnerabilities.
+
+Kevin Lira leads initiatives on performance, usability, and secure development workflows, and studies practical, scalable approaches to applying LLMs to real-world codebases for vulnerability detection and repair.
+
+## Pages
+
+- [Homepage](https://kevinws.com/): Bio, education, research focus, and contact information.
+- [Publications](https://kevinws.com/publications.html): Peer-reviewed papers, education history, and patents.
+
+## Research
+
+- Vulnerability Detection with Interprocedural Context in Multiple Languages: Assessing Effectiveness and Cost of Modern LLMs — 30th International Conference on Evaluation and Assessment in Software Engineering (EASE), AI Models/Data track, 2026.
+- Beyond Code Explanations: A Ray of Hope for Cross-Language Vulnerability Repair — 2nd ACM International Conference on AI-powered Software (AIware), 2025.
+- Turning Manual Tasks into Actions: Assessing the Effectiveness of Gemini-generated Selenium Tests — 2nd ACM International Conference on AI-powered Software (AIware), 2025.
+
+## Profiles
+
+- [Google Scholar](https://scholar.google.com/citations?user=9GWvJagAAAAJ)
+- [ORCID](https://orcid.org/0000-0001-7324-3925)
+- [GitHub](https://github.com/kevinwsbr)
+- [LinkedIn](https://linkedin.com/in/kevinwsbr)
