@@ -30,7 +30,7 @@ h3 {
   margin: 32px 0 -12px 84px;
 }
 
-h4 {
+.label {
   text-align: right;
   min-width: 60px;
   font-size: 12px;
