@@ -1,19 +1,41 @@
 # Kevin Lira
 
-> Computer engineer and Ph.D. student in Computer Science at North Carolina State University (USA), researching large language models (LLMs) for automated detection and repair of software vulnerabilities.
+> Kevin Lira is a tech lead, engineer, computer engineer, and Ph.D. student in Computer Science at North Carolina State University (USA), working across web performance, SEO, usability, LLM security, automated software vulnerability detection, and vulnerability repair.
 
-Kevin Lira leads initiatives on performance, usability, and secure development workflows, and studies practical, scalable approaches to applying LLMs to real-world codebases for vulnerability detection and repair.
+Kevin Lira leads front-end engineering initiatives on performance, conversion, usability, SEO, automated testing, internationalization, and scalable web platforms. His research studies practical, scalable approaches to applying LLMs to real-world codebases and vulnerability analysis workflows.
 
 ## Pages
 
-- [Homepage](https://kevinws.com/): Bio, education, research focus, and contact information.
-- [Publications](https://kevinws.com/publications/): Peer-reviewed papers, education history, and patents.
+- [Homepage](https://kevinws.com/): Bio, education, research focus, professional background, and contact information.
+- [Research](https://kevinws.com/research/): Research overview on LLM security, vulnerability detection, interprocedural code context, cross-language vulnerability repair, and automated software testing.
+- [Publications](https://kevinws.com/publications/): Peer-reviewed papers, education history, patents, and research profiles.
+- [Resumé](https://kevinws.com/resume/): HTML resumé with education, experience, technical skills, and a link to the PDF resumé.
 
 ## Research
 
 - Vulnerability Detection with Interprocedural Context in Multiple Languages: Assessing Effectiveness and Cost of Modern LLMs — 30th International Conference on Evaluation and Assessment in Software Engineering (EASE), AI Models/Data track, 2026.
+  - arXiv: https://arxiv.org/abs/2604.08417
+  - DOI: https://doi.org/10.48550/arXiv.2604.08417
 - Beyond Code Explanations: A Ray of Hope for Cross-Language Vulnerability Repair — 2nd ACM International Conference on AI-powered Software (AIware), 2025.
+  - DOI: https://doi.org/10.1109/AIware69974.2025.00017
+  - Conference page: https://2025.aiwareconf.org/details/aiware-2025-papers/18/Beyond-Code-Explanations-A-Ray-of-Hope-for-Cross-Language-Vulnerability-Repair
 - Turning Manual Tasks into Actions: Assessing the Effectiveness of Gemini-generated Selenium Tests — 2nd ACM International Conference on AI-powered Software (AIware), 2025.
+  - DOI: https://doi.org/10.1109/AIware69974.2025.00012
+
+## Topics
+
+- LLM security
+- Front-end engineering
+- Technical leadership
+- Web performance
+- Search engine optimization
+- User experience
+- Software vulnerability detection
+- Automated program repair
+- Cross-language vulnerability repair
+- Interprocedural code context
+- Secure software engineering
+- Automated software testing
 
 ## Profiles
 
