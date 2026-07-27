@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>LLM Security Research | Kevin Lira</title>
-    <meta name="description" content="Research by Kevin Lira on LLM security, software vulnerability detection, interprocedural code context, cross-language vulnerability repair, and automated software testing.">
+    <meta name="description" content="Research by Kevin Lira on LLM security, automated vulnerability repair, software engineering, usability, assistive technology, and applied judicial systems.">
     <meta name="author" content="Kevin Lira">
     <meta name="robots" content="index,follow,max-image-preview:large">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,19 +13,19 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="#862F32">
     <meta name="msapplication-navbutton-color" content="#862F32">
     <link rel="canonical" href="https://kevinws.com/research/">
-    <style>:root{--ink:#0b1215;--muted:#6e6a79;--link:#2b6d70;--accent:#862f32;--line:#e3e8e4;--line-strong:#d4ddd7;--wash:#eef7f6;--soft:#fbfcfb;--label-col:154px;--gap:28px;--content-start:182px;--radius:8px}*{box-sizing:border-box}html{font-size:16px}body{margin:0;min-height:100vh;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.5;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}a{color:var(--link);text-decoration-thickness:1px;text-underline-offset:3px}a:hover{color:var(--accent)}a:focus-visible,.menu-button:focus-visible{outline:2px solid var(--link);outline-offset:3px}.container{width:min(1040px,100%);margin:0 auto;padding:32px 28px 24px}.top-menu{margin:0 0 32px 84px}.menu-button{display:none}.top-nav{display:flex;flex-wrap:wrap;gap:8px}.top-nav a{display:inline-flex;align-items:center;min-height:44px;padding:11px 14px;border:1px solid var(--line-strong);border-radius:var(--radius);color:var(--ink);background:#fff;text-decoration:none;font-size:14px;line-height:1.2}.top-nav a:hover{border-color:var(--link);background:var(--wash);color:var(--ink)}.top-nav a[aria-current="page"]{border-color:var(--accent);background:#f8eeee;color:var(--accent)}.site-header{margin-left:84px;display:flex;flex-direction:column;gap:8px}.site-header.compact{gap:6px}.site-header a{color:inherit;text-decoration:none}.site-avatar{width:100px;height:100px;border-radius:50%;margin-bottom:8px;border:4px solid #fff;box-shadow:0 8px 24px rgba(25,39,44,.16);object-fit:cover}.site-title{font-size:28px;line-height:1.15;font-weight:400;letter-spacing:0;margin:0}.site-subtitle{font-size:15px;font-weight:400;color:var(--muted);margin:0}.resume-contact{display:flex;flex-wrap:wrap;gap:8px 14px;margin:4px 0 0;color:var(--muted);font-size:13px;line-height:1.4}.resume-contact a{color:var(--link);text-decoration:none}.resume-contact a:hover{text-decoration:underline}.resume-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}.download-link{display:inline-flex;align-items:center;min-height:34px;padding:8px 12px;border:1px solid var(--accent);border-radius:var(--radius);background:#fff;color:var(--accent);text-decoration:none;font-size:13px;line-height:1.2}.download-link:hover{background:#f8eeee;color:var(--accent)}.page-heading{position:relative;font-weight:650;font-size:26px;line-height:1.2;margin:36px 0 4px;padding-left:84px;color:var(--ink)}.page-heading:before{content:"";position:absolute;left:84px;bottom:-8px;width:42px;height:2px;background:var(--accent)}.text-section{display:grid;grid-template-columns:var(--label-col) minmax(0,1fr);align-items:start;gap:var(--gap);width:100%;margin:0;padding:28px 0;border-top:1px solid var(--line)}main>.text-section:first-child,.page-heading+.text-section{border-top:0}.label{text-align:right;font-size:12px;font-weight:500;color:var(--muted);line-height:1.8;letter-spacing:.04em}.chip-section .label{padding-top:12px}p,.text-section li{font-size:16px;font-weight:400;line-height:1.6;margin:0}.text-section ul{list-style:none;margin:0;padding:0}.text-section li{margin-bottom:10px}.text-section span{font-size:12px;line-height:16px;color:var(--muted);margin:4px 0 16px;display:block}.entry{margin-bottom:18px}.entry:last-child{margin-bottom:0}.entry-head{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;margin-bottom:2px}.entry h2{font-size:17px;line-height:1.35;font-weight:500;margin:0}.entry-date{font-size:12px;line-height:1.5;color:var(--muted);text-align:right;white-space:nowrap}.entry-meta{font-size:12px;line-height:16px;color:var(--muted);margin:4px 0 8px}.entry ul{list-style:none;margin:0;padding:0}.dash-list li,.entry li{font-size:14px;line-height:1.5;margin:0 0 6px;padding-left:14px;position:relative}.dash-list li:before,.entry li:before{content:"";position:absolute;left:0;top:.72em;width:6px;height:1px;background:var(--accent)}.chips{display:flex;flex-wrap:wrap;gap:6px}.chip{display:inline-flex;align-items:center;min-height:28px;padding:5px 9px;border-radius:var(--radius);border:1px solid #d9e1dc;background:var(--soft);color:#243036;font-size:13px;line-height:1.2}.text-section .chip{margin:0}footer{text-align:center;color:#68757a;font-size:12px;padding:18px 0 0}@media (max-width:720px){.container{padding:24px 20px}.top-menu,.site-header{margin-left:0}.page-heading{padding-left:0}.page-heading:before{left:0}.menu-button{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:11px 14px;border:1px solid var(--line-strong);border-radius:var(--radius);background:#fff;color:var(--ink);font-size:14px;line-height:1.2;cursor:pointer}.menu-button:before{content:"";display:block;width:16px;height:12px;background:linear-gradient(currentColor,currentColor) 0 0/16px 2px no-repeat,linear-gradient(currentColor,currentColor) 0 5px/16px 2px no-repeat,linear-gradient(currentColor,currentColor) 0 10px/16px 2px no-repeat}.top-nav{display:none;flex-direction:column;align-items:stretch;margin-top:10px}.top-nav a{width:100%;justify-content:center}.top-nav.is-open{display:flex}.text-section{display:grid;grid-template-columns:1fr;gap:12px;padding:24px 0}.label{text-align:left;min-width:72px}.entry-head{display:block}.entry-date{text-align:left;margin-top:2px;white-space:normal}}</style>
+    <style>:root{--ink:#0b1215;--muted:#6e6a79;--link:#2b6d70;--accent:#862f32;--accent-soft:#f8eeee;--line:#e3e8e4;--line-strong:#d4ddd7;--wash:#eef7f6;--soft:#fbfcfb;--chip-ink:#243036;--footer:#68757a;--label-col:154px;--gap:28px;--radius:8px}*{box-sizing:border-box}html{font-size:16px}body{margin:0;min-height:100vh;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.5;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}a{color:var(--link);text-decoration-thickness:1px;text-underline-offset:3px}a:hover{color:var(--accent)}a:focus-visible,.menu-button:focus-visible{outline:2px solid var(--link);outline-offset:3px}.container{width:min(1040px,100%);margin:0 auto;padding:32px 28px 24px}.top-menu{margin:0 0 32px 84px}.menu-button{display:none}.top-nav{display:flex;flex-wrap:wrap;gap:8px}.top-nav a{display:inline-flex;align-items:center;min-height:44px;padding:11px 14px;border:1px solid var(--line-strong);border-radius:var(--radius);color:var(--ink);background:#fff;text-decoration:none;font-size:15px;line-height:1.2}.top-nav a:hover{border-color:var(--link);background:var(--wash);color:var(--ink)}.top-nav a[aria-current="page"]{border-color:var(--accent);background:var(--accent-soft);color:var(--accent)}.site-header{margin-left:84px;display:flex;flex-direction:column;gap:8px}.site-header.compact{gap:6px}.site-header a{color:inherit;text-decoration:none}.site-avatar{width:100px;height:100px;border-radius:50%;margin-bottom:8px;border:4px solid #fff;box-shadow:0 8px 24px rgba(25,39,44,.16);object-fit:cover}.site-title{font-size:30px;line-height:1.15;font-weight:400;letter-spacing:0;margin:0}.site-subtitle{font-size:16px;font-weight:400;color:var(--muted);margin:0}.resume-contact{display:flex;flex-wrap:wrap;gap:8px 14px;margin:4px 0 0;color:var(--muted);font-size:14px;line-height:1.4}.resume-contact a{color:var(--link);text-decoration:none}.resume-contact a:hover{text-decoration:underline}.resume-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}.download-link{display:inline-flex;align-items:center;min-height:36px;padding:8px 12px;border:1px solid var(--accent);border-radius:var(--radius);background:#fff;color:var(--accent);text-decoration:none;font-size:14px;line-height:1.2}.download-link:hover{background:var(--accent-soft);color:var(--accent)}.page-heading{position:relative;font-weight:650;font-size:30px;line-height:1.2;margin:36px 0 4px;padding-left:84px;color:var(--ink)}.page-heading:before{content:"";position:absolute;left:84px;bottom:-8px;width:42px;height:2px;background:var(--accent)}.text-section{display:grid;grid-template-columns:var(--label-col) minmax(0,1fr);align-items:start;gap:var(--gap);width:100%;margin:0;padding:28px 0;border-top:1px solid var(--line)}main>.text-section:first-child,.page-heading+.text-section{border-top:0}.label{text-align:right;font-size:13px;font-weight:500;color:var(--muted);line-height:1.8;letter-spacing:.04em}.chip-section .label{padding-top:3px}p,.text-section li{font-size:16px;font-weight:400;line-height:1.6;margin:0}.text-section ul{list-style:none;margin:0;padding:0}.text-section li{margin-bottom:10px}.text-section span:not(.chip){font-size:13px;line-height:18px;color:var(--muted);margin:4px 0 16px;display:block}.entry{margin-bottom:18px}.entry:last-child{margin-bottom:0}.entry-head{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;margin-bottom:2px}.entry h2{font-size:18px;line-height:1.35;font-weight:500;margin:0}.entry-date{font-size:13px;line-height:1.5;color:var(--muted);text-align:right;white-space:nowrap}.entry-meta{font-size:13px;line-height:18px;color:var(--muted);margin:4px 0 8px}.entry ul{list-style:none;margin:0;padding:0}.dash-list li,.entry li{font-size:16px;line-height:1.5;margin:0 0 6px;padding-left:14px;position:relative}.dash-list li:before,.entry li:before{content:"";position:absolute;left:0;top:.72em;width:6px;height:1px;background:var(--accent)}.timeline{display:grid;gap:18px}.text-section p+.timeline{margin-top:18px}.timeline-step{position:relative;padding-left:18px}.timeline-step:before{content:"";position:absolute;left:0;top:.65em;width:7px;height:7px;border-radius:50%;background:var(--accent)}.timeline-step h2{font-size:18px;line-height:1.35;font-weight:500;margin:0 0 4px}.timeline-step p{font-size:16px;line-height:1.6;margin:0;color:var(--ink)}.timeline-step .entry-meta{margin:0 0 6px}.chips{display:flex;flex-wrap:wrap;gap:6px}.chip{display:inline-flex;align-items:center;min-height:30px;padding:5px 9px;border-radius:var(--radius);border:1px solid var(--line-strong);background:var(--soft);color:var(--chip-ink);font-size:14px;line-height:1.2}.text-section .chip{margin:0}footer{text-align:center;color:var(--footer);font-size:13px;padding:18px 0 0}@media (max-width:720px){.container{padding:24px 20px}.top-menu,.site-header{margin-left:0}.page-heading{padding-left:0}.page-heading:before{left:0}.menu-button{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:11px 14px;border:1px solid var(--line-strong);border-radius:var(--radius);background:#fff;color:var(--ink);font-size:15px;line-height:1.2;cursor:pointer}.menu-button:before{content:"";display:block;width:16px;height:12px;background:linear-gradient(currentColor,currentColor) 0 0/16px 2px no-repeat,linear-gradient(currentColor,currentColor) 0 5px/16px 2px no-repeat,linear-gradient(currentColor,currentColor) 0 10px/16px 2px no-repeat}.top-nav{display:none;flex-direction:column;align-items:stretch;margin-top:10px}.top-nav a{width:100%;justify-content:center}.top-nav.is-open{display:flex}.text-section{display:grid;grid-template-columns:1fr;gap:12px;padding:24px 0}.label{text-align:left;min-width:72px}.entry-head{display:block}.entry-date{text-align:left;margin-top:2px;white-space:normal}}</style>
 
     <!--[if IE]><link rel="shortcut icon" href="/assets/icons/meta/favicon.ico"><![endif]-->
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/meta/apple-touch-icon.png">
     <link rel="icon" href="/assets/icons/meta/icon.png">
     <meta property="og:type" content="website">
     <meta property="og:title" content="LLM Security Research | Kevin Lira">
-    <meta property="og:description" content="Research on LLM security, software vulnerability detection, cross-language vulnerability repair, and automated software testing.">
+    <meta property="og:description" content="Research on LLM security, automated vulnerability repair, software engineering, usability, assistive technology, and applied judicial systems.">
     <meta property="og:url" content="https://kevinws.com/research/">
     <meta property="og:image" content="https://kevinws.com/assets/img/kevin-lira-tech-lead-front-end-engineer.jpeg">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="LLM Security Research | Kevin Lira">
-    <meta name="twitter:description" content="Research on LLM security, software vulnerability detection, cross-language vulnerability repair, and automated software testing.">
+    <meta name="twitter:description" content="Research on LLM security, automated vulnerability repair, software engineering, usability, assistive technology, and applied judicial systems.">
     <meta name="twitter:image" content="https://kevinws.com/assets/img/kevin-lira-tech-lead-front-end-engineer.jpeg">
 
     <script type="application/ld+json">
@@ -37,7 +37,7 @@
                 "@id": "https://kevinws.com/research/#webpage",
                 "url": "https://kevinws.com/research/",
                 "name": "LLM Security Research | Kevin Lira",
-                "description": "Research by Kevin Lira on LLM security, software vulnerability detection, interprocedural code context, cross-language vulnerability repair, and automated software testing.",
+                "description": "Research by Kevin Lira on LLM security, automated vulnerability repair, software engineering, usability, assistive technology, and applied judicial systems.",
                 "inLanguage": "en-US",
                 "isPartOf": { "@id": "https://kevinws.com/#website" },
                 "about": { "@id": "https://kevinws.com/research/#llm-security" }
@@ -47,14 +47,18 @@
                 "@id": "https://kevinws.com/research/#llm-security",
                 "name": "LLM Security and Software Vulnerability Research",
                 "url": "https://kevinws.com/research/",
-                "description": "Research on using large language models for software vulnerability detection, interprocedural code understanding, cross-language vulnerability repair, and automated software testing.",
+                "description": "Research on using large language models for software vulnerability detection, interprocedural code understanding, cross-language vulnerability repair, automated software testing, and applied judicial systems, informed by earlier work in usability, assistive technology, and registered software systems.",
                 "keywords": [
                     "LLM security",
                     "software vulnerability detection",
                     "automated program repair",
                     "cross-language vulnerability repair",
                     "interprocedural code context",
-                    "automated software testing"
+                    "automated software testing",
+                    "judicial technology",
+                    "applied artificial intelligence",
+                    "usability",
+                    "assistive technology"
                 ],
                 "researcher": { "@id": "https://kevinws.com/#kevin-lira" },
                 "parentOrganization": {
@@ -62,6 +66,59 @@
                     "name": "North Carolina State University",
                     "url": "https://www.ncsu.edu/"
                 }
+            },
+            {
+                "@type": "ScholarlyArticle",
+                "headline": "Vulnerability Detection with Interprocedural Context in Multiple Languages: Assessing Effectiveness and Cost of Modern LLMs",
+                "author": [
+                    { "@id": "https://kevinws.com/#kevin-lira" },
+                    { "@type": "Person", "name": "Baldoino Fonseca" },
+                    { "@type": "Person", "name": "Davy Baía" },
+                    { "@type": "Person", "name": "Márcio Ribeiro" },
+                    { "@type": "Person", "name": "Wesley K. G. Assunção" }
+                ],
+                "isPartOf": "30th International Conference on Evaluation and Assessment in Software Engineering (EASE): AI Models/Data track",
+                "datePublished": "2026",
+                "identifier": "arXiv:2604.08417",
+                "url": "https://arxiv.org/abs/2604.08417",
+                "sameAs": "https://doi.org/10.48550/arXiv.2604.08417",
+                "keywords": "LLM security, vulnerability detection, interprocedural context, software security"
+            },
+            {
+                "@type": "ScholarlyArticle",
+                "headline": "Beyond Code Explanations: A Ray of Hope for Cross-Language Vulnerability Repair",
+                "author": [
+                    { "@id": "https://kevinws.com/#kevin-lira" },
+                    { "@type": "Person", "name": "Baldoino Fonseca" },
+                    { "@type": "Person", "name": "Wesley K. G. Assunção" },
+                    { "@type": "Person", "name": "Davy Baía" },
+                    { "@type": "Person", "name": "Márcio Ribeiro" }
+                ],
+                "isPartOf": "2nd ACM International Conference on AI-powered Software (AIware)",
+                "datePublished": "2025",
+                "identifier": "10.1109/AIware69974.2025.00017",
+                "url": "https://doi.org/10.1109/AIware69974.2025.00017",
+                "sameAs": "https://2025.aiwareconf.org/details/aiware-2025-papers/18/Beyond-Code-Explanations-A-Ray-of-Hope-for-Cross-Language-Vulnerability-Repair",
+                "keywords": "cross-language vulnerability repair, automated program repair, LLM security"
+            },
+            {
+                "@type": "ScholarlyArticle",
+                "headline": "Turning Manual Tasks into Actions: Assessing the Effectiveness of Gemini-generated Selenium Tests",
+                "author": [
+                    { "@type": "Person", "name": "Myron David Lucena Campos Peixoto" },
+                    { "@type": "Person", "name": "Baldoino Fonseca" },
+                    { "@type": "Person", "name": "Davy de Medeiros Baia" },
+                    { "@id": "https://kevinws.com/#kevin-lira" },
+                    { "@type": "Person", "name": "Márcio Ribeiro" },
+                    { "@type": "Person", "name": "Wesley K. G. Assunção" },
+                    { "@type": "Person", "name": "Nathalia Nascimento" },
+                    { "@type": "Person", "name": "Paulo Alencar" }
+                ],
+                "isPartOf": "2nd ACM International Conference on AI-powered Software (AIware)",
+                "datePublished": "2025",
+                "identifier": "10.1109/AIware69974.2025.00012",
+                "url": "https://doi.org/10.1109/AIware69974.2025.00012",
+                "keywords": "automated software testing, Selenium tests, Gemini, generative AI"
             },
             {
                 "@type": "BreadcrumbList",
@@ -83,7 +140,6 @@
             <div class="top-nav" id="site-nav">
                 <a href="/">Home</a>
                 <a href="/research/" aria-current="page">Research</a>
-                <a href="/publications/">Publications</a>
                 <a href="/resume/">Resumé</a>
             </div>
         </nav>
@@ -95,10 +151,17 @@
             <h2 class="page-heading">Research</h2>
             <section class="text-section" id="focus">
                 <div class="label">/focus</div>
-                <p>I study how large language models can support secure software engineering, especially automated
-                    software vulnerability detection and repair. This research focuses on practical methods for
-                    reasoning about production codebases, interprocedural context, multiple programming languages, and
-                    the cost of applying modern LLMs in vulnerability analysis workflows.</p>
+                <p>I study how large language models can support secure software engineering, especially vulnerability
+                    detection and automated repair. My work focuses on practical methods for reasoning about production
+                    codebases, interprocedural context, multiple programming languages, and the cost of using modern
+                    LLMs in vulnerability analysis workflows.</p>
+            </section>
+            <section class="text-section" id="background">
+                <div class="label">/background</div>
+                <p>I am a Ph.D. student in Computer Science at North Carolina State University, advised by Wesley K. G.
+                    Assunção. My M.S. research at the Federal University of Alagoas focused on large language models for
+                    automated vulnerability repair across multiple programming languages. My undergraduate work produced
+                    a multi-language dataset of open-source software vulnerabilities and their fixes.</p>
             </section>
             <section class="text-section" id="topics">
                 <div class="label">/topics</div>
@@ -107,18 +170,88 @@
                     <li>Cross-language vulnerability repair and automated program repair.</li>
                     <li>Secure development workflows for real-world software systems.</li>
                     <li>Automated software testing with generative AI and browser automation.</li>
+                    <li>Usability, assistive technology, and applied software systems.</li>
                 </ul>
             </section>
             <section class="text-section" id="publications">
                 <div class="label">/papers</div>
-                <p>Selected papers include work on LLM vulnerability detection across languages, cross-language
-                    vulnerability repair, and Gemini-generated Selenium tests. <a href="/publications/">View the full
-                    publications page</a>.</p>
+                <div>
+                    <article class="entry">
+                        <div class="entry-head">
+                            <h2>Vulnerability Detection with Interprocedural Context in Multiple Languages: Assessing Effectiveness and Cost of Modern LLMs</h2>
+                            <div class="entry-date">2026</div>
+                        </div>
+                        <p class="entry-meta">30th International Conference on Evaluation and Assessment in Software Engineering (EASE): AI Models/Data track · <a href="https://arxiv.org/abs/2604.08417">arXiv</a> · <a href="https://doi.org/10.48550/arXiv.2604.08417">DOI</a></p>
+                    </article>
+                    <article class="entry">
+                        <div class="entry-head">
+                            <h2>Beyond Code Explanations: A Ray of Hope for Cross-Language Vulnerability Repair</h2>
+                            <div class="entry-date">2025</div>
+                        </div>
+                        <p class="entry-meta">2nd ACM International Conference on AI-powered Software (AIware) · <a href="https://doi.org/10.1109/AIware69974.2025.00017">DOI</a> · <a href="https://2025.aiwareconf.org/details/aiware-2025-papers/18/Beyond-Code-Explanations-A-Ray-of-Hope-for-Cross-Language-Vulnerability-Repair">Conference page</a></p>
+                    </article>
+                    <article class="entry">
+                        <div class="entry-head">
+                            <h2>Turning Manual Tasks into Actions: Assessing the Effectiveness of Gemini-generated Selenium Tests</h2>
+                            <div class="entry-date">2025</div>
+                        </div>
+                        <p class="entry-meta">2nd ACM International Conference on AI-powered Software (AIware) · <a href="https://doi.org/10.1109/AIware69974.2025.00012">DOI</a></p>
+                    </article>
+                </div>
+            </section>
+            <section class="text-section" id="earlier-work">
+                <div class="label">/earlier</div>
+                <div>
+                    <p>Before my current LLM security research, I worked on applied software systems for judicial
+                        automation, scientific computing, and assistive technology.</p>
+                    <div class="timeline">
+                        <article class="timeline-step">
+                            <h2>EASY/UFAL</h2>
+                            <p class="entry-meta">In partnership with Justiça Federal em Alagoas (JFAL)</p>
+                            <p>Developed <strong>CliqueJunte</strong>, <strong>Cassandra</strong>, and
+                                <strong>Laura</strong>. These applied systems support document attachment in PJe
+                                workflows, preparation of RPV/PRC requisitions through Jurisdição Delegada, and
+                                AI-assisted triage of medical expert reports.</p>
+                        </article>
+                        <article class="timeline-step">
+                            <h2>LCCV/UFAL</h2>
+                            <p class="entry-meta">In partnership with Petrobras</p>
+                            <p>Developed <strong>SimWear</strong> as part of computational research on oil-well casing
+                                wear prediction, supporting tools that use historical well-trajectory data, statistical
+                                analysis, and wear models to estimate mechanical degradation.</p>
+                        </article>
+                        <article class="timeline-step">
+                            <h2>TOCA/UFAL</h2>
+                            <p class="entry-meta">In partnership with the Ministry of Tourism</p>
+                            <p>Developed <strong>TATU</strong>, a mobile app for visitors who are blind, have low
+                                vision, or are deaf or hard of hearing. The project combined IoT, audio description,
+                                and Libras so cultural attractions could be experienced with more autonomy.</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <section class="text-section" id="software">
+                <div class="label">/software</div>
+                <div>
+                    <article class="entry">
+                        <h2>TATU - Tecnologia Assistiva Aplicada ao Turismo</h2>
+                        <p class="entry-meta">Registered computer program · INPI BR512020001032-6 · 2020</p>
+                    </article>
+                    <article class="entry">
+                        <h2>SGA - Sistema de Gerência de Atrações Turísticas</h2>
+                        <p class="entry-meta">Registered computer program · INPI BR512020001028-8 · 2020</p>
+                    </article>
+                    <article class="entry">
+                        <h2>TutoMath</h2>
+                        <p class="entry-meta">Registered computer program · INPI BR512019000497-3 · 2015</p>
+                    </article>
+                </div>
             </section>
             <section class="text-section" id="profiles">
                 <div class="label">/profiles</div>
                 <p>Find my research on <a rel="me" href="https://scholar.google.com/citations?user=9GWvJagAAAAJ">Google
-                    Scholar</a> and <a rel="me" href="https://orcid.org/0000-0001-7324-3925">ORCID</a>.</p>
+                    Scholar</a>, <a rel="me" href="https://orcid.org/0000-0001-7324-3925">ORCID</a>, and <a
+                        href="http://lattes.cnpq.br/4026940203006804">Lattes</a>.</p>
             </section>
         </main>
         <footer>

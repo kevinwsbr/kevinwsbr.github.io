@@ -27,16 +27,6 @@
 </url>
 
 <url>
-  <loc>https://kevinws.com/publications/</loc>
-  <lastmod>2026-07-27</lastmod>
-  <priority>0.8</priority>
-  <image:image>
-    <image:loc>https://kevinws.com/assets/img/kevin-lira-tech-lead-front-end-engineer.jpeg</image:loc>
-    <image:title>Kevin Lira, tech lead, front-end engineer, and LLM security researcher</image:title>
-  </image:image>
-</url>
-
-<url>
   <loc>https://kevinws.com/resume/</loc>
   <lastmod>2026-07-27</lastmod>
   <priority>0.7</priority>

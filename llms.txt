@@ -2,13 +2,12 @@
 
 > Kevin Lira is a tech lead, engineer, computer engineer, and Ph.D. student in Computer Science at North Carolina State University (USA), working across web performance, SEO, usability, LLM security, automated software vulnerability detection, and vulnerability repair.
 
-Kevin Lira leads front-end engineering initiatives on performance, conversion, usability, SEO, automated testing, internationalization, and scalable web platforms. His research studies practical, scalable approaches to applying LLMs to real-world codebases and vulnerability analysis workflows.
+Kevin Lira leads front-end engineering initiatives on performance, conversion, usability, SEO, automated testing, internationalization, and scalable web platforms. His research studies practical, scalable approaches to applying LLMs to real-world codebases and vulnerability analysis workflows. His applied research timeline includes TOCA assistive tourism work, SimWear at LCCV/UFAL in partnership with Petrobras, and judicial systems such as CliqueJunte, Cassandra, and Laura at EASY/UFAL in partnership with JFAL.
 
 ## Pages
 
 - [Homepage](https://kevinws.com/): Bio, education, research focus, professional background, and contact information.
-- [Research](https://kevinws.com/research/): Research overview on LLM security, vulnerability detection, interprocedural code context, cross-language vulnerability repair, and automated software testing.
-- [Publications](https://kevinws.com/publications/): Peer-reviewed papers, education history, patents, and research profiles.
+- [Research](https://kevinws.com/research/): Research overview, applied research timeline, peer-reviewed papers, Lattes-derived academic background, LLM security, vulnerability detection, interprocedural code context, cross-language vulnerability repair, automated software testing, assistive technology, and software registrations.
 - [Resumé](https://kevinws.com/resume/): HTML resumé with education, experience, technical skills, and a link to the PDF resumé.
 
 ## Research
