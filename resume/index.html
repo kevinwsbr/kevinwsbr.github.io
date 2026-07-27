@@ -7,6 +7,7 @@
     <title>Resumé | Kevin Lira</title>
     <meta name="description" content="Resumé of Kevin Lira, tech lead, engineer, and Ph.D. student focused on web performance, SEO, usability, LLM security, and secure development workflows.">
     <meta name="author" content="Kevin Lira">
+    <meta name="robots" content="index,follow,max-image-preview:large">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#862F32">
     <meta name="apple-mobile-web-app-status-bar-style" content="#862F32">
@@ -17,11 +18,6 @@
     <!--[if IE]><link rel="shortcut icon" href="/assets/icons/meta/favicon.ico"><![endif]-->
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/meta/apple-touch-icon.png">
     <link rel="icon" href="/assets/icons/meta/icon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"></noscript>
-
     <meta property="og:type" content="profile">
     <meta property="og:title" content="Resumé | Kevin Lira">
     <meta property="og:description" content="Tech lead, engineer, and Ph.D. student focused on web performance, SEO, usability, LLM security, and secure development workflows.">
@@ -35,15 +31,27 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "ProfilePage",
-        "@id": "https://kevinws.com/resume/#profile",
-        "url": "https://kevinws.com/resume/",
-        "name": "Resumé | Kevin Lira",
-        "dateCreated": "2026-07-27",
-        "dateModified": "2026-07-27",
-        "mainEntity": {
-            "@id": "https://kevinws.com/#kevin-lira"
-        }
+        "@graph": [
+            {
+                "@type": "ProfilePage",
+                "@id": "https://kevinws.com/resume/#profile",
+                "url": "https://kevinws.com/resume/",
+                "name": "Resumé | Kevin Lira",
+                "dateCreated": "2026-07-27",
+                "dateModified": "2026-07-27",
+                "inLanguage": "en-US",
+                "isPartOf": { "@id": "https://kevinws.com/#website" },
+                "mainEntity": { "@id": "https://kevinws.com/#kevin-lira" }
+            },
+            {
+                "@type": "BreadcrumbList",
+                "@id": "https://kevinws.com/resume/#breadcrumb",
+                "itemListElement": [
+                    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kevinws.com/" },
+                    { "@type": "ListItem", "position": 2, "name": "Resumé", "item": "https://kevinws.com/resume/" }
+                ]
+            }
+        ]
     }
     </script>
 </head>

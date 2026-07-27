@@ -7,6 +7,7 @@
     <title>LLM Security Research | Kevin Lira</title>
     <meta name="description" content="Research by Kevin Lira on LLM security, software vulnerability detection, interprocedural code context, cross-language vulnerability repair, and automated software testing.">
     <meta name="author" content="Kevin Lira">
+    <meta name="robots" content="index,follow,max-image-preview:large">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#862F32">
     <meta name="apple-mobile-web-app-status-bar-style" content="#862F32">
@@ -17,11 +18,6 @@
     <!--[if IE]><link rel="shortcut icon" href="/assets/icons/meta/favicon.ico"><![endif]-->
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/meta/apple-touch-icon.png">
     <link rel="icon" href="/assets/icons/meta/icon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"></noscript>
-
     <meta property="og:type" content="website">
     <meta property="og:title" content="LLM Security Research | Kevin Lira">
     <meta property="og:description" content="Research on LLM security, software vulnerability detection, cross-language vulnerability repair, and automated software testing.">
@@ -35,27 +31,47 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "ResearchProject",
-        "@id": "https://kevinws.com/research/#llm-security",
-        "name": "LLM Security and Software Vulnerability Research",
-        "url": "https://kevinws.com/research/",
-        "description": "Research on using large language models for software vulnerability detection, interprocedural code understanding, cross-language vulnerability repair, and automated software testing.",
-        "keywords": [
-            "LLM security",
-            "software vulnerability detection",
-            "automated program repair",
-            "cross-language vulnerability repair",
-            "interprocedural code context",
-            "automated software testing"
-        ],
-        "researcher": {
-            "@id": "https://kevinws.com/#kevin-lira"
-        },
-        "parentOrganization": {
-            "@type": "CollegeOrUniversity",
-            "name": "North Carolina State University",
-            "url": "https://www.ncsu.edu/"
-        }
+        "@graph": [
+            {
+                "@type": "WebPage",
+                "@id": "https://kevinws.com/research/#webpage",
+                "url": "https://kevinws.com/research/",
+                "name": "LLM Security Research | Kevin Lira",
+                "description": "Research by Kevin Lira on LLM security, software vulnerability detection, interprocedural code context, cross-language vulnerability repair, and automated software testing.",
+                "inLanguage": "en-US",
+                "isPartOf": { "@id": "https://kevinws.com/#website" },
+                "about": { "@id": "https://kevinws.com/research/#llm-security" }
+            },
+            {
+                "@type": "ResearchProject",
+                "@id": "https://kevinws.com/research/#llm-security",
+                "name": "LLM Security and Software Vulnerability Research",
+                "url": "https://kevinws.com/research/",
+                "description": "Research on using large language models for software vulnerability detection, interprocedural code understanding, cross-language vulnerability repair, and automated software testing.",
+                "keywords": [
+                    "LLM security",
+                    "software vulnerability detection",
+                    "automated program repair",
+                    "cross-language vulnerability repair",
+                    "interprocedural code context",
+                    "automated software testing"
+                ],
+                "researcher": { "@id": "https://kevinws.com/#kevin-lira" },
+                "parentOrganization": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "North Carolina State University",
+                    "url": "https://www.ncsu.edu/"
+                }
+            },
+            {
+                "@type": "BreadcrumbList",
+                "@id": "https://kevinws.com/research/#breadcrumb",
+                "itemListElement": [
+                    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kevinws.com/" },
+                    { "@type": "ListItem", "position": 2, "name": "Research", "item": "https://kevinws.com/research/" }
+                ]
+            }
+        ]
     }
     </script>
 </head>
