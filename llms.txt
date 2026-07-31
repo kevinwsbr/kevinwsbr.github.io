@@ -4,6 +4,8 @@
 
 Kevin Lira leads front-end engineering initiatives on performance, conversion, usability, SEO, automated testing, internationalization, and scalable web platforms. His research studies practical, scalable approaches to applying LLMs to real-world codebases and vulnerability analysis workflows. His applied research timeline includes TOCA assistive tourism work, SimWear at LCCV/UFAL in partnership with Petrobras, and judicial systems such as CliqueJunte, Cassandra, and Laura at EASY/UFAL in partnership with JFAL.
 
+Kevin Washington is an alternate name for Kevin Lira and points to the same personal website at https://kevinws.com/.
+
 ## Pages
 
 - [Homepage](https://kevinws.com/): Bio, education, research focus, professional background, and contact information.
